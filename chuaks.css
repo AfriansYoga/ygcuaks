@@ -1,0 +1,450 @@
+body {
+    background-color: #DDE6ED;
+    overflow-x: hidden;
+    
+}
+#header {
+    background-color: #394867;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bergerak {
+    color: white;
+    background-color: #91C8E4;
+    font-size: 40px;
+    
+}
+
+.btn button{
+    
+    cursor:pointer;
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #394867;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 10px;
+    transition: all .55s ease;
+}
+.h3 {
+    align-items: center;
+    color: white;
+}
+
+#tablejs {
+    
+    display:none;
+}
+.table {
+    background-color: #EEEDED;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.dftr1 div{
+     text-align: center;
+     justify-content: center;
+     justify-items: center;
+    }
+
+.dftr1{
+    display: block;
+    width: 92%;
+    height: 600px;
+    background-color: #749BC2;
+    padding: 10px;
+    
+    margin-top: 50px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#murid div{
+    background-color: #EEEDED;
+    border: 2px solid black;
+    width: 230px;
+    height: auto;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: left;
+    
+   
+}
+#murid h3 {
+    text-align: center;
+}
+
+#pkt div {
+    background-color: #EEEDED;
+    border: 2px solid black;
+    width: 230px;
+    height: auto;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: left;
+    
+
+}
+
+#pkt h3 {
+    text-align: center;
+margin-top: 10px;
+}
+.Jadwal-piket {
+    display: inline-block;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 98%;
+    
+   
+}
+
+
+.lebron {
+  
+    
+    width: 92%;
+    height: 600px;
+    background-color: #749BC2;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lebron div {
+    background-color: #EEEDED;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    text-align:center ;
+    margin-top: 20px;
+    padding: 20px
+
+}
+
+.lebron div video {
+    width: 520px;
+    height: 320px;
+}
+
+.lebron div h3 {
+    padding-top:1%;
+}
+
+.foto-lebaran{
+    width: 92%;
+    height: 600px;
+    background-color: #749BC2;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.foto-lebaran div {
+    background-color: #EEEDED;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    text-align:center ;
+    margin-top: 20px;
+    padding: 20px
+}
+
+.foto-lebaran div img {
+    width: 520px;
+    height: 320px;
+}
+
+/*------tablet------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+body{
+    background-color: #DCD6F7;
+    overflow-x: hidden;
+}
+
+audio{
+    width: 230px;
+    
+}
+#header {
+    background-color: #424874;
+}
+
+.bergerak{
+    background-color: #A6B1E1;
+}
+.table {
+    background-color: #F4EEFF;
+}
+
+.dftr1{
+    display: block;
+    width: 92%;
+    height: 1100px;
+    background-color: #A6B1E1;
+    padding: 10px;
+    
+    margin-top: 50px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#murid div{
+    width: 210px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    justify-items: center;
+    justify-content: center;
+    background-color: #F4EEFF;
+}
+
+#pkt div{
+    background-color: #F4EEFF;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+}
+
+.lebron {
+    width: 92%;
+    height: 1100px;
+    background-color: #A6B1E1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lebron div {
+    background-color: #F4EEFF;
+    border: 2px solid black;
+    display: inline-block;
+    width: 80%;
+    height: 40%;
+    text-align:center ;
+    margin-top: 20px;
+    padding: 20px
+}
+
+.lebron div video {
+    width: 500px;
+    height: 360px;
+}
+
+.foto-lebaran{
+    width: 92%;
+    height: 1100px;
+    background-color: #A6B1E1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto-lebaran div {
+    background-color: #F4EEFF;
+    border: 2px solid black;
+    display: inline-block;
+    width: 80%;
+    height: 430px;
+    text-align:center ;
+    margin-top: 20px;
+    padding: 20px
+}
+
+.foto-lebaran div img {
+    width: 500px;
+    height: 360px;
+}
+
+}
+/*------hp------ maybe 113*/
+@media screen and (max-width: 767px){
+    html{
+        overflow-x: hidden;
+    }
+    
+
+    body{
+        background-color: #191825;
+        overflow-x: hidden;
+       
+        
+    }
+    audio{
+        width: 144px;
+        
+    }
+
+    #header {
+        background-color: #865DFF;
+    }
+    
+    .bergerak{
+        background-color: #E384FF;
+    }
+    .table {
+        background-color: #E5BEEC;
+        
+    }
+
+    .btn button{
+        background-color: #8062D6;
+
+    }
+    .dftr1 div{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+        
+       }
+   
+    .dftr1{
+        display: block;
+        width: 92%;
+        height: 2100px;
+        background-color: #E384FF;
+        
+        padding: 10px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 50px;
+        border: 2px solid black;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    #murid div {
+        background-color: #E5BEEC;
+    }
+
+    #pkt div {
+        background-color: #E5BEEC;
+    }
+
+    .lebron {
+  
+    
+        width: 92%;
+        height: 800px;
+        background-color: #E384FF;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    }
+
+    .lebron div {
+        background-color: #E5BEEC;
+        border: 2px solid black;
+        display: inline-block;
+        width: 80%;
+        height: 38%;
+        text-align:center ;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .foto-lebaran {
+  
+    
+        width: 92%;
+        height: 1000px;
+        background-color: #E384FF;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+    .foto-lebaran div {
+        background-color: #E5BEEC;
+        border: 2px solid black;
+        display: inline-block;
+        width: 80%;
+        height: 30%;
+        text-align:center ;
+        margin-top: 20px;
+        padding: 20px;
+
+        
+    }
+
+    .lebron div video {
+        width: 300px;
+        height: 250px;
+    }
+
+    .foto-lebaran div img{
+        width: 300px;
+        height: 240px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
